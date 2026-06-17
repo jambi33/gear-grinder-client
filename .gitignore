@@ -11,3 +11,4 @@ minecraft/*
 !minecraft/shaderpacks/
 !minecraft/texturepacks/
 !minecraft/options.txt
+!minecraft/icon.png
