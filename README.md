@@ -1,5 +1,5 @@
 # Gear Grinder: Extra Hard Create Aeronautics
-A Create-centred survival modpack built for players who want a challenge. Mobs hit harder and have more health across every dimension, and they fight smarter too: skeletons keep their distance and retreat when you close in, blazes fire in volleys, witches drink potions mid-fight, ghasts breach through walls. Teaming up is recommended on adventures.
+A Create Aeronautics survival modpack built for players who want a challenge. Mobs hit harder and have more health across every dimension, and they fight smarter too: skeletons keep their distance and retreat when you close in, blazes fire in volleys, witches drink potions mid-fight, ghasts breach through walls. Teaming up is recommended on adventures.
 
 Progression runs through Create. You'll need Enchantment Industry's extended enchantments and nether loot to gear up enough to survive the harder areas, let alone the Ender Dragon, which has been reworked with more health, new attacks, and a tougher fight overall.
 
