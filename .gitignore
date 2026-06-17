@@ -1,5 +1,6 @@
 # Root-level artifacts
 mrpack/
+CLAUDE.md
 
 # Everything in minecraft/ except what we want
 minecraft/*
