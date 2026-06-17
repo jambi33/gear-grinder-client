@@ -1,0 +1,21 @@
+filename = 'steamturbine-mc1.21.1-1.2.182.jar'
+name = 'Create: Steam Turbines'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.21.1-1.2.182'
+
+[download]
+hash = 'f14bf8c6951e1a7aa7259894e61eaa73dd2e723e0add9d67caa8c28a312d8e08afb116af78c95b68fb3ccc26bdb3fe9986f998566eb97956ba1e8c9ed8a07794'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/nZInLEM0/versions/sRXN6Lzx/steamturbine-mc1.21.1-1.2.182.jar'
+
+[update.modrinth]
+mod-id = 'nZInLEM0'
+version = 'sRXN6Lzx'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 'shuffle-neoforge-21.1.0.jar'
+name = 'Shuffle'
+side = 'client'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '21.1.0-neoforge'
+
+[download]
+hash = 'b754df3ee89fe271e9a675abf18d22ded2fa51abe04c7fa91716dbe95ba5265cc46e873a7c0a0eca4ab72463baeee58deb9dea8d2f30da68cb3d3d6efa12d3cc'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/WUvGZLgB/versions/c2CBLjgR/shuffle-neoforge-21.1.0.jar'
+
+[update.modrinth]
+mod-id = 'WUvGZLgB'
+version = 'c2CBLjgR'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'Q8xUICr6'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 't_and_t-neoforge-fabric-1.13.9+1.21.1.jar'
+name = 'Towns and Towers'
+side = ''
+x-prismlauncher-loaders = [ 'neoforge', 'fabric' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'release'
+x-prismlauncher-version-number = '1.13.9'
+
+[download]
+hash = 'a2921584bbb0a79d634b599a1f4327c04eaf44a9846c535450755437fe02a61c5bdaee9070045062e2ae3d0dc35693bc2abf3981b67df9e01e16350a92c59739'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/DjLobEOy/versions/5PS5OhIh/t_and_t-neoforge-fabric-1.13.9%2B1.21.1.jar'
+
+[update.modrinth]
+mod-id = 'DjLobEOy'
+version = '5PS5OhIh'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'cl223EMc'
+type = 'REQUIRED'

@@ -1,0 +1,21 @@
+filename = 'createbiggervaults-1.0.0.jar'
+name = 'Create: Bigger Vaults'
+side = 'both'
+x-prismlauncher-loaders = [ 'neoforge' ]
+x-prismlauncher-mc-versions = [ '1.21.1' ]
+x-prismlauncher-release-type = 'beta'
+x-prismlauncher-version-number = '1.0.0'
+
+[download]
+hash = '4ae14a1c3a395de4eb3d7d6ed3c93547d93bff247e14ebe7eb1e3a6c02bad457ec5adcb296e315d1abbe5e28cb6fd04577243547fa7c38603bad77e6bcc83477'
+hash-format = 'sha512'
+mode = 'url'
+url = 'https://cdn.modrinth.com/data/bsbLCmiw/versions/ouWgvmte/createbiggervaults-1.0.0.jar'
+
+[update.modrinth]
+mod-id = 'bsbLCmiw'
+version = 'ouWgvmte'
+
+[[x-prismlauncher-dependencies]]
+addonId = 'LNytGWDc'
+type = 'REQUIRED'

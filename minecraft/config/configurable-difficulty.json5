@@ -1,0 +1,137 @@
+{
+	// Enable/disable the entire mod
+	enabled: true,
+	// How players get difficulty modifiers\\nOptions: DYNAMIC, SPAWN_ONLY
+	playerMode: "DYNAMIC",
+	// How mobs get difficulty modifiers\\nOptions: DYNAMIC, SPAWN_ONLY
+	mobMode: "SPAWN_ONLY",
+	// Check interval in ticks (20 = 1 second)\\nLower = more responsive, higher = better performance
+	checkInterval: 20,
+	// Apply to hostile mobs
+	applyToHostileMobs: true,
+	// Apply to passive mobs
+	applyToPassiveMobs: false,
+	// Apply to neutral mobs
+	applyToNeutralMobs: false,
+	// Enable debug logging
+	debugEnabled: false,
+	// Log biome changes
+	debugLogBiomeChanges: true,
+	// Log attribute changes
+	debugLogAttributeChanges: true,
+	// Which attributes to modify
+	enabledAttributes: {
+		max_health: true,
+		armor: true,
+		armor_toughness: true,
+		attack_damage: true,
+		attack_speed: false,
+		attack_knockback: false,
+		knockback_resistance: true,
+		luck: true
+	},
+	// Default multipliers for biomes not explicitly configured\\nMultiplier of 1.0 = no change, 2.0 = 2x harder, 0.5 = half difficulty
+	defaultMultipliers: {
+		max_health: 1.5,
+		armor: 1.1,
+		armor_toughness: 1.0,
+		attack_damage: 1.75,
+		attack_speed: 1.0,
+		attack_knockback: 1.0,
+		knockback_resistance: 0.0,
+		luck: 1.2
+	},
+	// Dimension multipliers: Base difficulty per dimension\\nFormat: modid:dimension_name
+	dimensionMultipliers: {
+		"minecraft:overworld": {
+			max_health: 1.5,
+			armor: 1.1,
+			armor_toughness: 1.0,
+			attack_damage: 1.75,
+			attack_speed: 1.0,
+			attack_knockback: 1.0,
+			knockback_resistance: 0.0,
+			luck: 1.2
+		},
+		"minecraft:the_nether": {
+		    max_health: 1.5,
+		    armor: 1.1,
+		    armor_toughness: 1.0,
+		    attack_damage: 1.75,
+		    attack_speed: 1.0,
+		    attack_knockback: 1.0,
+		    knockback_resistance: 0.1,
+		    luck: 1.35
+		},
+		"minecraft:the_end": {
+		    max_health: 1.60,
+		    armor: 1.2,
+		    armor_toughness: 1.1,
+		    attack_damage: 1.85,
+		    attack_speed: 1.0,
+		    attack_knockback: 1.0,
+		    knockback_resistance: 0.1,
+		    luck: 1.5
+		}
+	},
+	// Biome-specific multipliers\\nFormat: modid:biomename
+	biomeMultipliers: {
+		"minecraft:frozen_ocean": {
+			max_health: 0.8,
+			armor: 0.8,
+			armor_toughness: 1.0,
+			attack_damage: 1.05,
+			attack_speed: 1.0,
+			attack_knockback: 1.0,
+			knockback_resistance: 0.1,
+			luck: 1.1
+		},
+		"minecraft:desert": {
+			max_health: 0.8,
+			armor: 0.8,
+			armor_toughness: 1.0,
+			attack_damage: 1.05,
+			attack_speed: 1.0,
+			attack_knockback: 1.0,
+			knockback_resistance: 0.1,
+			luck: 1.1
+		},
+		"minecraft:mushroom_fields": {
+			max_health: 0.5,
+			armor: 0.5,
+			armor_toughness: 1.0,
+			attack_damage: 0.5,
+			attack_speed: 1.0,
+			attack_knockback: 1.0,
+			knockback_resistance: 0.0,
+			luck: 1.1
+		},
+		"minecraft:deep_dark": {
+			max_health: 1.125,
+			armor: 1.0,
+			armor_toughness: 1.0,
+			attack_damage: 1.125,
+			attack_speed: 1.0,
+			attack_knockback: 1.0,
+			knockback_resistance: 0.1,
+			luck: 1.2
+		}
+	},
+	// Depth scaling: Progressive difficulty based on Y-coordinate
+	depthScaling: {
+		enabled: true,
+		y_threshold: 0,
+		max_depth: -64,
+		scaling_mode: "linear",
+		max_multipliers: {
+			max_health: 1.125,
+			armor: 1.0,
+			armor_toughness: 1.0,
+			attack_damage: 1.125,
+			attack_speed: 1.0,
+			attack_knockback: 1.0,
+			knockback_resistance: 0.1,
+			luck: 1.2
+		}
+	}
+}

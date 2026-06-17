@@ -1,0 +1,12 @@
+# Root-level artifacts
+mrpack/
+
+# Everything in minecraft/ except what we want
+minecraft/*
+!minecraft/config/
+!minecraft/kubejs/
+!minecraft/mods/
+!minecraft/resourcepacks/
+!minecraft/shaderpacks/
+!minecraft/texturepacks/
+!minecraft/options.txt
